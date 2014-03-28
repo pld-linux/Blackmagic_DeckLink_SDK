@@ -44,6 +44,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Blackmagic\ Decklink\ SDK.pdf ReadMe.rtf
+%dir %{_includedir}/decklink
 %{_includedir}/decklink/DeckLinkAPI*.h
 %{_includedir}/decklink/LinuxCOM.h
 %{_includedir}/decklink/DeckLinkAPIDispatch*.cpp
