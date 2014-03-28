@@ -11,6 +11,7 @@ Source0:	http://software.blackmagicdesign.com/SDK/%{name}_%{version}.zip
 URL:		http://www.blackmagicdesign.com/support/sdks
 #BuildRequires:	libstdc++-devel
 #BuildRequires:	qt4-qmake
+Requires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
