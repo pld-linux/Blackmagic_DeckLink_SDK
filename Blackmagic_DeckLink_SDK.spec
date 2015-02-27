@@ -3,7 +3,7 @@ Summary:	Blackmagic Design DeckLink SDK
 Summary(pl.UTF-8):	Pakiet programistyczny (SDK) Blackmagic Design DeckLink
 Name:		Blackmagic_DeckLink_SDK
 Version:	10.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Libraries
 Source0:	http://software.blackmagicdesign.com/SDK/%{name}_%{version}.zip
